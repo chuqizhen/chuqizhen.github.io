@@ -1,0 +1,236 @@
+<!DOCTYPE html><!--html5文档格式-->
+<html lang="zh-CN"><!--申明语言是中文简体-->
+<head>
+    <meta charset="utf-8">
+    <!--当是IE的是试用最新的渲染引擎来渲染页面-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--让页面适配移动端  需要加上 user-scalable=0 让用户不予许缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=0">
+    <!--百度禁止转码-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <!--页面的加载顺序和解析顺序 -->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>楚奇臻-个人简历</title>
+    <!-- Bootstrap 核心css文件-->
+    <link href="./lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!--IE8一下就不支持html5标签和媒体查询-->
+    <!--
+        html5标签要支持的话？  引入 html5shiv
+        media query 要支持的话？  引入 respond
+    -->
+    <!--注意：要已http形式打开你的页面  否者respond不生效-->
+    <!--条件注释-->
+    <!--[if lt IE 9]>
+    <script src="./lib/html5shiv/html5shiv.min.js"></script>
+    <script src="./lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!--导航栏-->
+        <nav id="navbar"  class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="container">
+                    <div class="navbar-header m0">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true" >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <span id="name" class="navbar-brand" href="javascript:;">楚奇臻</span>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse  hidden-sm  navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav"  id="navbar-example" >
+                            <li class="active"><a href="#bg">首页</a></li>
+                            <li><a href="#info">个人资料</a></li>
+                            <li><a href="#skills">知识技能</a></li>
+                            <li><a href="#job">工作经历</a></li>
+                            <li><a href="#work">项目经验</a></li>
+                            <li><a href="#tel">联系方式</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <!--bg begin-->
+    <div id='bg' class="bg ">
+        <img src="./image/bg.jpg" alt=""/>
+        <div class="self-quote">
+            <p>踏实、专注</p>
+        </div>
+    </div>
+    <!--bg end-->
+    <!--个人资料 begin-->
+    <div id="info" class="container-fluid introduction info">
+        <div class="container">
+                <div class="col-md-4 col-xs-12 m0">
+                    <div class="self-introduction">
+                        <h3>个人资料</h3>
+                        <ul>
+                            <li>姓名：楚奇臻</li>
+                            <li>年龄：25岁</li>
+                            <li>性别：男</li>
+                            <li>工作年限：2年</li>
+                            <li>求职意向：web前端开发工程师</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 m0">
+                   <div class="self-school">
+                       <h3>教育背景</h3>
+                       <ul>
+                           <li>毕业院校：商丘工学院</li>
+                           <li>学历：大专</li>
+                           <li>专业：计算机网络技术</li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="col-md-4 col-xs-12 m0">
+                   <div class="self-job">
+                       <h3>求职意向</h3>
+                       <ul>
+                           <li>工作地点：上海</li>
+                           <li>入职时间：即时</li>
+                           <li>工作类型：全职</li>
+                           <li>期望薪资：面议</li>
+                           <li>职业：web前端开发工程师</li>
+                       </ul>
+                   </div>
+                </div>
+        </div>
+    </div>
+    <!--个人资料 end-->
+
+    <!--Self-skills begin-->
+    <div id="skills" class="container-fluid skills ">
+        <div class="container ">
+            <div class="col-xs-12 m0">
+                <div class="self-skills">
+                    <h3>个人技能</h3>
+                    <ol>
+                        <li>1、熟练使用HTML+CSS，能够写出符合W3C标准的页面，兼容主流浏览器</li>
+                        <li>2、熟练使用jQuery完成页面的功能，实现页面特效。</li>
+                        <li>3、熟练使用HTML5+CSS3，熟练使用bootstrap进行响应式页面的开发</li>
+                        <li>4、了解http协议，熟练使用Ajax进行前后端数据交互，了解jsonp。</li>
+                        <li>了解自动化构建工具gulp，以及git进行版本分布式管理。</li>
+                        <li>了解前端MVC框架：AngularJs</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Self-skills end-->
+
+    <!--工作经历 begin-->
+    <div id="job" class="container-fluid job">
+        <div class="container">
+            <h3 class="job-work">工作经历</h3>
+            <div class="col-xs-12 m0">
+                <div class="self-introduction">
+                    <h3>湖州蓝海软件有限公司</h3>
+                    <p>时间：2014-09~2016-09</p>
+                    <p>职位：web前端开发工程师</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--工作经历 end-->
+    <!--个人资料 begin-->
+    <div id="work" class="container-fluid work">
+        <div class="container">
+            <h3 class="job-work">项目经验</h3>
+            <div class="col-md-6 col-xs-12 m0">
+                <div class="baogaitou">
+                    <h3>浙江英研精密有限公司官网</h3>
+                    <h4>项目描述：<span class="sp">该项目面向的是一家中日合资企业 ，公司主要产品领域：机器人配件、行车配件、加工设备配件等各种工程机械。</span></h4>
+                    <h4>项目职责：</h4>
+                    <ul>
+                        <li>1、依据设计图，进行合理布局（DIV+CSS）。</li>
+                        <li>2、使用jQuery实现页面的动态效果。如实现轮播图效果。</li>
+                        <li>3、使用ajax技术获取后台数据，并对后台请求数据进行处理。</li>
+                        <li>4、积极配合项目开发，通过项目完成，逐渐融入团队的工作节奏。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 m0">
+                <div class="yunshouyi">
+                    <h3>西科姆电梯官网</h3>
+                    <h4>项目描述：<span class="sp">该项目是一个PC端的企业网站，主要根据客户需求定制不同系列高档电梯，如观光电梯、医用电梯、别墅电梯 等。</span></h4>
+                    <h4>项目职责：</h4>
+                    <ul>
+                        <li>1、通过采用DIV+CSS样式布局排版</li>
+                        <li>2、使用CSS3新知识及animate.css插件实现图片效果。</li>
+                        <li>3、使用jquery.superslide.js实现页面动态效果。</li>
+                        <li>4、使用jQuery通过ajax以json形式交互获取后台数据</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="col-md-4 col-xs-12 m0">
+                <div class="qiubin">
+                    <h3>秋彬资产官网</h3>
+                    <h4>项目描述：<span class="sp">该项目为一个企业门户网站,介绍公司业务等</span></h4>
+                    <h4>项目职责：</h4>
+                    <ul>
+                        <li>1、精准对设计如进行还原,制作web页面</li>
+                        <li>2、实现页面的基本动态特性</li>
+                        <li>3、该项目由个人独立完成</li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!--个人资料 end-->
+    <!--联系方式 begin-->
+    <div id="tel" class="container-fluid  ">
+        <div class="container ">
+            <div class="col-xs-12 m0">
+                <div class="tel m0">
+                    <h3>联系方式</h3>
+                    <h4>Phone:18736888698</h4>
+                    <h4>QQ:183047848</h4>
+                    <h4>Email:chuqizhen@126.com</h4>
+                    <p>
+                        <a href="http://lcf.home.oschina.io/happy">笑话大全</a>
+                        <a href="http://lcf.home.oschina.io/lichaofei">移动端简历</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--联系方式 end-->
+
+    <!--引入jquery  因为bootstrap是依赖-->
+    <script src="./lib/jquery.min.js"></script>
+    <!-- bootstrap 核心js文件-->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./lib/jquery.nav.js"></script>
+    <script>
+
+        $(function(){
+            $('#navbar-example').onePageNav();
+            $('#navbar-example').on('click','li', function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
